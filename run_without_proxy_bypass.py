@@ -4,7 +4,7 @@ import uuid
 import random
 #import cloudscraper
 from loguru import logger
-from fake_useragent import UserAgent
+#from fake_useragent import UserAgent
 from curl_cffi import requests
 
 # Constants
