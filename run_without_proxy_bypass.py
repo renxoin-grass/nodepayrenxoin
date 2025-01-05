@@ -89,7 +89,7 @@ async def call_api(url, data, token):
         #scraper = cloudscraper.create_scraper()
 
         #response = scraper.post(url, json=data, headers=headers, timeout=30)
-        response = requests.post(url, json=data, headers=headers, impersonate="chrome116", timeout=30)
+        response = requests.post(url, json=data, headers=headers, impersonate="safari15_5", timeout=30)
         response.raise_for_status()
         return valid_resp(response.json())
     except Exception as e:
