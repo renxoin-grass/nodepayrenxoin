@@ -1,0 +1,7 @@
+requests
+asyncio
+aiohttp
+loguru
+cloudscraper
+curl_cffi
+fake_useragent==1.5.1
